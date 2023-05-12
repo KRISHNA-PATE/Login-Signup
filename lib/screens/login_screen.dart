@@ -86,7 +86,9 @@ class LoginScreen extends StatelessWidget {
                           bkg_color: AppColors().colorBlue,
                           text: AppString.sign_in.tr,
                           onPressed: () {
-                            Get.offAndToNamed(Routes.SignupScreen);
+                            if(loginController.formKey.currentState!.validate()){
+                              Get.offAndToNamed(Routes.HomeScreen);
+                            }
                           },
                         ),
                       ),

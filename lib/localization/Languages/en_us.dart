@@ -19,4 +19,5 @@ final Map<String, String> enUS = {
   AppString.already_have_account: "Already have an account? ",
   AppString.dont_have_an_account: "Don't have an account? ",
   AppString.forgot_password: "Forgot Password ?",
+  AppString.welcome: "Welcome",
 };

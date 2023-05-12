@@ -18,4 +18,5 @@ class AppString {
   static String already_have_account = "already_have_account";
   static String dont_have_an_account = "dont_have_an_account";
   static String forgot_password = "forgot_password";
+  static String welcome = "welcome";
 }
